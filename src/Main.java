@@ -12,13 +12,13 @@ public class Main {
         // WHILE y DO-WHILE
         int numeroWhile = 0;
         while (numeroWhile < 3) {
-            System.out.println("WHILE < 3: " + numeroWhile);
             numeroWhile++;
+            System.out.println("WHILE < 3: " + numeroWhile);
         }
         numeroWhile = 2;
         do {
-            System.out.println("DO-WHILE < 3: " + numeroWhile);
             numeroWhile++;
+            System.out.println("DO-WHILE < 3: " + numeroWhile);
         } while (numeroWhile < 3 );
 
         // FOR
